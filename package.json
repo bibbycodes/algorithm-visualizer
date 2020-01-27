@@ -1,0 +1,19 @@
+{
+  "name": "algorithm-visulaizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bibbycodes/algorithm-visualizer.git"
+  },
+  "author": "Natalie Yeo, Robert Griffith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bibbycodes/algorithm-visualizer/issues"
+  },
+  "homepage": "https://github.com/bibbycodes/algorithm-visualizer#readme"
+}
