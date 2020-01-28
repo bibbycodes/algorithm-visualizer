@@ -8,7 +8,7 @@ class Canvas extends React.Component {
   componentDidMount() {
     const canvas = this.refs.canvas
     const ctx = canvas.getContext("2d")
-    this.renderArray([1,4,10,20], ctx)
+    this.renderArray(this.props.data, ctx)
   }
 
   renderArray = (array, ctx) => {
@@ -16,7 +16,6 @@ class Canvas extends React.Component {
       ctx.fillStyle = "#FF0000";
       ctx.fillRect(index * 30, 0, 29, item)
     })
-
   }
 
   render() {
